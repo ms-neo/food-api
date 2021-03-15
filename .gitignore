@@ -1,0 +1,19 @@
+.DS_Store
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+config/
