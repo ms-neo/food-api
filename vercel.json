@@ -4,7 +4,7 @@
     "builds": [
       {
         "src": "app.js",
-        "use": "@now/node-server"
+        "use": "@vercel/node-server"
       }
     ],
     "routes": [
@@ -14,6 +14,7 @@
       }
     ], 
     "env": {
+      "mongoURI":"my-mongoDB-secret",
       "CORS_ORIGIN": "*"
     }
   }

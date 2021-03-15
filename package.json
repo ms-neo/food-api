@@ -16,5 +16,8 @@
     "mongoose": "^5.11.19",
     "nodemon": "^2.0.7",
     "now": "^21.0.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.9.1"
   }
 }
