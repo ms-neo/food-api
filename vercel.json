@@ -1,20 +1,15 @@
+
 {
-    "version": 2,
-    "name": "server",
-    "builds": [
-      {
-        "src": "app.js",
-        "use": "@vercel/node-server"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/.*",
-        "dest": "app.js"
-      }
-    ], 
-    "env": {
-      "mongoURI":"my-mongoDB-secret",
-      "CORS_ORIGIN": "*"
-    }
-  }
+  "name": "aravegfood",
+  "version": 2,
+  "routes": [
+          {
+            "src": "/.*",
+            "dest": "app.js"
+          }
+        ], 
+        "env": {
+          "MONGODB_URI":"@my-mongoDB-secret",
+          "CORS_ORIGIN": "*"
+        }
+}
