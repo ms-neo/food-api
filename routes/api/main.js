@@ -8,6 +8,7 @@ router.get('/',async(req, res) => {
     try {
         const p = await Product.find()
         res.json(p)
+        console.log(p)
     } catch (error) {
         res.json(console.log(error))
     }

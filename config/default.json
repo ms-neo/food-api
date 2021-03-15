@@ -1,0 +1,3 @@
+{
+    "mongoURI" :"mongodb://neo:neo123@aravegfood-shard-00-00.lw15l.mongodb.net:27017,aravegfood-shard-00-01.lw15l.mongodb.net:27017,aravegfood-shard-00-02.lw15l.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-z2ftpn-shard-0&authSource=admin&retryWrites=true&w=majority"
+}
